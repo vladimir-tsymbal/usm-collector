@@ -34,6 +34,7 @@ The output of the Usmcollector displays as four separate events. Each event has 
 - GPU Memory Faults
 - Memory Object Migration Events
 - Memory Object Migration Latency
+
 The migration of objects from the host to the GPU is denoted by **src smem, dst lmem**.
 The migration of objects from the GPU to the host is denoted by **src lmem, dst smem**.
 
