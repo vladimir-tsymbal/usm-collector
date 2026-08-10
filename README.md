@@ -61,6 +61,4 @@ Hardware requirements for Usmcollecor
 
 Get Help
 
-To get help with Usmcollector or report feedback,
-- [File a support ticket](https://supporttickets.intel.com/s/?language=en_US)
-- [Use the Analyzers Forum](https://community.intel.com/t5/Analyzers/bd-p/analyzers)
+To get help with Usmcollector or report feedback, open an Issue. 
