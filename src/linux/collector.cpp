@@ -273,7 +273,11 @@ status_t Collector::start(pid_t pid)
 // (print data directly from BPF functions)
 status_t Collector::printBpfMem()
 {
-
+    if (m_lib == nullptr)
+    {
+        USM_TRACE("No library");
+        return stSystemError;
+    }
     decltype(print_bpf_mem)* print_bpf_mem_fn = m_lib->getSym<decltype(print_bpf_mem)*>("print_bpf_mem");
     if (print_bpf_mem_fn == nullptr)
     {

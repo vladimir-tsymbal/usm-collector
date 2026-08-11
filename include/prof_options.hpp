@@ -21,6 +21,9 @@
 #ifndef USM_PROF_OPTIONS_HPP
 #define USM_PROF_OPTIONS_HPP
 
+#include <cstdint>
+#include <string>
+
 namespace usmcollector
 {
 
